@@ -52,7 +52,7 @@ names(steps_per_day) <- c("date","no_of_steps")
 hist(steps_per_day$no_of_steps, breaks=10,main = "Histogram of no. of steps per day", xlab="No. of steps per day")
 ```
 
-![](code4_files/figure-html/steps per day / unimputed-1.png)<!-- -->
+![](code4_files/figure-html/steps_per_day_unimputed-1.png)<!-- -->
 
 Calculate the mean and the median of the total number of steps.
 
@@ -75,7 +75,7 @@ plot(steps_perintervalday_avg$date2, steps_perintervalday_avg$avg_no_of_steps, t
      main="Time Series Plot", ylab="Average no. of steps per day", xlab="Date" )
 ```
 
-![](code4_files/figure-html/avgerage steps per interval-1.png)<!-- -->
+![](code4_files/figure-html/avgerage_steps_per_interval-1.png)<!-- -->
 
 
 ### 5. Interval which, on average, contains the maximum number of steps
@@ -133,7 +133,7 @@ Here the histogram of the original data:
 hist(steps_per_day$no_of_steps, breaks=10,main = "Histogram of no. of steps per day", xlab="No. of steps per day")
 ```
 
-![](code4_files/figure-html/histogram unimputed-1.png)<!-- -->
+![](code4_files/figure-html/histogram_unimputed-1.png)<!-- -->
      
 And now the histogram of the imputed data:    
 
@@ -141,7 +141,7 @@ And now the histogram of the imputed data:
 hist(steps_per_day2$no_of_steps, breaks=10,main = "Histogram of no. of steps per day (missing values imputed)", xlab="No. of steps per day")
 ```
 
-![](code4_files/figure-html/histogram imputed-1.png)<!-- -->
+![](code4_files/figure-html/histogram_imputed-1.png)<!-- -->
 
 Next calculate mean and medain of imputed data:
 
