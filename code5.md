@@ -177,4 +177,4 @@ g + geom_line() +
     labs(x="Interval",y="Avg. no. of steps in interval", title="Comparison of avg. no. of steps: Weekday vs Weekend")
 ```
 
-![](code5_files/figure-html/comparision_of_weekend_weekdays / imputed-1.png)<!-- -->
+![](code5_files/figure-html/comparision_of_weekend_weekdays_imputed-1.png)<!-- -->
